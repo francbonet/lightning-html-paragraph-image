@@ -11,7 +11,7 @@ export type HtmlParagraphRenderOptions = {
   html?: string;
   /**
    * Width in CSS pixels used to layout the paragraph.
-   * Defaults to 800.
+   * Defaults to 800.fonts.cssf
    */
   width?: number;
   /**

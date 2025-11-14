@@ -45,6 +45,7 @@ export class HtmlParagraphImage extends Lightning.Component {
   private _content: HtmlContentInput | null = null;
   private _loading = false;
 
+  //@ts-ignore
   static override _template(): Lightning.Component.Template {
     return {
       texture: undefined,

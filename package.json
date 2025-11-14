@@ -1,6 +1,6 @@
 {
-  "name": "lightningjs-html-paragraph-image",
-  "version": "0.1.0",
+  "name": "@francbonet/lightningjs-html-paragraph-image",
+  "version": "0.1.3",
   "description": "Render HTML/text into a bitmap and use it as an ImageTexture in LightningJS 2 components.",
   "keywords": [
     "lightningjs",
@@ -13,15 +13,15 @@
     "paragraph"
   ],
   "license": "MIT",
-  "author": "@francbonet",
+  "author": "Francesc Pérez",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/francbonet/lightningjs-html-paragraph-image.git"
+    "url": "git+https://github.com/francbonet/lightning-html-paragraph-image"
   },
   "bugs": {
-    "url": "https://github.com/francbonet/lightningjs-html-paragraph-image/issues"
+    "url": "https://github.com/francbonet/lightning-html-paragraph-image/issues"
   },
-  "homepage": "https://github.com/francbonet/lightningjs-html-paragraph-image#readme",
+  "homepage": "https://github.com/francbonet/lightning-html-paragraph-image#readme",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
