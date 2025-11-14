@@ -1,0 +1,47 @@
+{
+  "name": "lightningjs-html-paragraph-image",
+  "version": "0.1.0",
+  "description": "Render HTML/text into a bitmap and use it as an ImageTexture in LightningJS 2 components.",
+  "keywords": [
+    "lightningjs",
+    "lightning",
+    "tv",
+    "html2canvas",
+    "text",
+    "bitmap",
+    "image",
+    "paragraph"
+  ],
+  "license": "MIT",
+  "author": "@francbonet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francbonet/lightningjs-html-paragraph-image.git"
+  },
+  "bugs": {
+    "url": "https://github.com/francbonet/lightningjs-html-paragraph-image/issues"
+  },
+  "homepage": "https://github.com/francbonet/lightningjs-html-paragraph-image#readme",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "peerDependencies": {
+    "@lightningjs/sdk": "^2.0.0"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
